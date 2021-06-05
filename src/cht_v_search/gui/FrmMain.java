@@ -52,13 +52,13 @@ public class FrmMain extends FormCustom {
             JFileChooser fileChooser = new JFileChooser();
             fileChooser.setFileFilter(this.fileChooserFileFilter);
             if (fileChooser.showOpenDialog(this.getRootPanel()) == JFileChooser.APPROVE_OPTION) {
-                this.dialogLoading.showIt("Loading file...", this.getRootPanel());
                 final File selectedFile = fileChooser.getSelectedFile();
-                if (selectedFile != null) {
+                if (selectedFile != null && selectedFile.isFile()) {
                     new SwingWorker() {
                         @Override
                         protected Object doInBackground() throws Exception {
                             try {
+                                dialogLoading.showIt("Loading file...", getRootPanel());
                                 if (selectedFile.getName().toLowerCase().endsWith(".txt")) {
                                     SwingUtilities.invokeLater(() -> dialogLoading.showIt("Loading txt file...", getRootPanel()));
                                     vSearch = new VSearch(selectedFile);

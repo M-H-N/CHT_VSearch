@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CHT_VSearch:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CHT_VSearch_jar</output-path>
+    <root id="archive" name="CHT_VSearch.jar">
+      <element id="module-output" name="CHT_VSearch" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/itestpdf-io-7.1.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/itestpdf-kernel-7.1.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/itextpdf-5.5.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gson-2.8.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

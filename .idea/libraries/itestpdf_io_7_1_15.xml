@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="itestpdf-io-7.1.15">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/itestpdf-io-7.1.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -5,7 +5,7 @@ Variance Search Application
 This programm simply runs a (kind of) variance-based serach
 
 ### Dependencies
-* Java 14 or later (JRE)
+* JRE & JDK 14 or above
 
 ### How to use (Dummies)
 1. Download [this jar file](out/artifacts/CHT_VSearch_jar/CHT_VSearch.jar) and open it
